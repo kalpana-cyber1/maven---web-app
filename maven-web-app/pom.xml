@@ -7,6 +7,10 @@
   <version>1.0-SNAPSHOT</version>
   <name>Maven Quick Start Archetype</name>
   <url>http://maven.apache.org</url>
+  <properties>
+<sonar.host.url>http://13.126.106.84:9000/</sonar.host.url>
+<sonar.login>a41196baaed69f2d55abf8d32e78bb4e1dbdff50</sonar.login>
+</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
